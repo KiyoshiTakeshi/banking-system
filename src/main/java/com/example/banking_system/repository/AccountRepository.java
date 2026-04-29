@@ -1,7 +1,7 @@
 package com.example.banking_system.repository;
 
-import com.example.banking.entity.Account;
-import com.example.banking.entity.User;
+import com.example.banking_system.entity.Account;
+import com.example.banking_system.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

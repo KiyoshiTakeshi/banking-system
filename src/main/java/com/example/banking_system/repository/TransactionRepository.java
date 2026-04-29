@@ -1,7 +1,7 @@
 package com.example.banking_system.repository;
 
-import com.example.banking.entity.Account;
-import com.example.banking.entity.Transaction;
+import com.example.banking_system.entity.Account;
+import com.example.banking_system.entity.Transaction;
 import org.springframework.cglib.core.Local;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
