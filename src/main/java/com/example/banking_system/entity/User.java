@@ -39,7 +39,6 @@ public class User implements UserDetails {
     @Builder.Default
     private LocalDateTime createdAt = LocalDateTime.now();
 
-    //Sử dụng kế thừa interface UserDetails để tạo lớp bảo mật 4 lớp kiểm tra tài khoản còn hoạt động hay không
     @Override
     @NonNull
     public Collection<? extends GrantedAuthority> getAuthorities() {

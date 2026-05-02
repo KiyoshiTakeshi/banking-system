@@ -30,7 +30,7 @@ public class Account {
     @Builder.Default
     private LocalDateTime createdAt = LocalDateTime.now();
 
-    @OneToOne(fetch = FetchType.LAZY) //sử dụng kiểu Lazy để duyệt chỉ lúc cần
+    @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", nullable = false, unique = true)
     private User user;
 }
